@@ -9,4 +9,5 @@ package Memory;
  */
 public final class Word {
 	
+	
 }
