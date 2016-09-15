@@ -4,5 +4,7 @@ public class Random {
 		System.out.println("HAHHAHAHA");
 		
 		System.out.println("Got it");
+		
+		
 	}
 }
