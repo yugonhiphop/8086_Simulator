@@ -1,7 +1,4 @@
-/**
- * 
- */
-package Memory;
+package app;
 
 /**
  * @author yugshende
@@ -35,5 +32,9 @@ public final class Word {
 		return b;
 
 	}
-
+/**
+ * 
+ */
 }
+
+
