@@ -1,12 +1,14 @@
 /**
  * 
  */
-package Memory;
+package app;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+
+import app.IRDecoder;
 
 /**
  * @author Chetan Mahajan
@@ -24,9 +26,10 @@ public class Simulator {
 
 			// Always wrap FileReader in BufferedReader.
 			BufferedReader bufferedReader = new BufferedReader(fileReader);
+			IRDecoder irDecoder=IRDecoder.getInstance();
 
 			while ((line = bufferedReader.readLine()) != null) {
-				//System.out.println(line);
+				irDecoder.readLine(line);
 			}
 
 			// Always close files.
