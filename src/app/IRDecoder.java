@@ -14,6 +14,7 @@ public class IRDecoder {
 	public static IRDecoder getInstance()
 	{
 		if(irdecoder==null)
+			
 		{
 			irdecoder=new IRDecoder();
 			System.out.println("Creating a new instance of the parser.");
