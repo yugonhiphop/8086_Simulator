@@ -40,8 +40,8 @@ public class IRDecoder {
 				}
 			}
 		}
-		catch(){
-			
+		catch(Exception e){
+			e.printStackTrace();
 		}
 	}
 	
@@ -49,6 +49,7 @@ public class IRDecoder {
 	
 	private boolean validInstructions(String subline){
 		Constants constant = new Constants();
+		return false;
 		
 	}
 
