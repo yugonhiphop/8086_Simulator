@@ -2,7 +2,7 @@
  * 
  */
 package app;
-
+import java.util.regex.*;
 /**
  * @author Chetan Mahajan
  *
@@ -29,6 +29,26 @@ public class IRDecoder {
 
 	public void readLine(String line) {
 		// TODO Auto-generated method stub
+		try{
+			while(true){
+				if(line == null || line == ""){
+					
+					break;
+				}
+				else if(validInstructions(line.substring(0,3))){
+					
+				}
+			}
+		}
+		catch(){
+			
+		}
+	}
+	
+	
+	
+	private boolean validInstructions(String subline){
+		Constants constant = new Constants();
 		
 	}
 
