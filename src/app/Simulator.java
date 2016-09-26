@@ -45,9 +45,7 @@ public class Simulator {
 
 	}
 
-	public void run() {
-
-	}
+	
 
 	/**
 	 * @param args
@@ -57,7 +55,7 @@ public class Simulator {
 		if (args.length == 1) {
 			String fileName = args[0];
 			Simulator simulator = new Simulator(fileName);
-			simulator.run();
+			
 
 		} else {
 			System.err.println(" Invalid command-line option ");
